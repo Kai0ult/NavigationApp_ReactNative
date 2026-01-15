@@ -6,8 +6,8 @@ export default function ProfileScreen() {
         name: 'Caio Oliveira',
         email: 'caio.oliveira@gmail.com',
         bio: 'Desenvolvedor React Native.',
-        location: 'Brasil',
-        joined: 'Janeiro 2024'
+        location: 'Coelho Neto',
+        joined: '2024'
     };
 
     return (
@@ -23,7 +23,7 @@ export default function ProfileScreen() {
                 <Text style={styles.bio}>{userData.bio}</Text>
 
                 <View style={styles.detailRow}>
-                    <Text style={styles.label}>Localização:</Text>
+                    <Text style={styles.label}>CIdade:</Text>
                     <Text style={styles.value}>{userData.location}</Text>
                 </View>
 
